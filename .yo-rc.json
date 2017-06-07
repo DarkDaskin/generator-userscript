@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Dark Daskin",
+      "authorEmail": "darkdaskin@gmail.com",
+      "authorUrl": "https://github.com/DarkDaskin/"
+    }
+  }
+}
