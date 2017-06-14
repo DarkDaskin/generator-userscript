@@ -1,0 +1,9 @@
+﻿{
+  "$schema": "file:../meta.schema.json",
+
+  "name": "<%= name %>",
+  "namespace": "<%= namespace %>",
+  "description": "<%= description %>",
+  "version": "1.0.0",
+  "include": [ "*" ]
+}

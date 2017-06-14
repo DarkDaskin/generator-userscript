@@ -1,0 +1,27 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "<%= description %>",
+  "scripts": {
+    "build": "webpack --progress",
+    "build:prod": "webpack --progress --config webpack.prod.config.ts --define process.env.NODE_ENV=\"production\""
+  },
+  "keywords": [
+    "userscript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.29",
+    "@types/pad": "^1.0.0",
+    "@types/webpack": "^2.2.15",
+    "css-loader": "^0.28.4",
+    "jsonschema": "^1.1.1",
+    "pad": "^1.1.0",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.1.0",
+    "ts-node": "^3.0.6",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1"
+  }
+}
