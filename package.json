@@ -1,6 +1,6 @@
 {
   "name": "generator-userscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeoman generator for building userscripts with TypeScript and Webpack",
   "homepage": "https://github.com/DarkDaskin/generator-userscript",
   "author": {
