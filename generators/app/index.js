@@ -53,11 +53,11 @@ module.exports = class extends Generator {
     this._copyTpl('package.json');
     this._copyTpl('src/meta.json');
     this.fs.copy(
-      this.templatePath('.gitignore'),
+      this.templatePath('_gitignore'),
       this.destinationPath('.gitignore')
     );
     this.fs.copy(
-      this.templatePath('!(package.json)'),
+      this.templatePath('!(package.json|_gitignore)'),
       this.destinationRoot()
     );
     this.fs.copy(
